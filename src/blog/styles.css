@@ -1,15 +1,18 @@
 .main-container {
-  height:100%;
   width: 100%;
-  border: 1px solid blue;
+  border: 1px solid gray;
+  background-color: gray;
+  padding-bottom: 20px;
 }
 
 .blog-container{
-  width: 60%;
-  height: 200px;
-  border: 1px solid red;
+  border: 2px solid white;
+  background-color: white;
+  width: 50%;
+  margin: auto;
+ 
 }
-
+  
 .column{
   width: 60px;
   height: 60px;
@@ -17,6 +20,31 @@
 
 }
 
-.row{
-  
+.topnav {
+  text-align: right;
+  padding: 14px 16px;
+  background-color: lightgray;  
+  margin-bottom: 20px;  
+}
+
+body {
+  margin: 0px;
+}
+
+
+p:hover:first-letter {
+  color: green;
+  font-size: 60px;
+}
+
+.blog-article-title {
+  font-weight: bold;
+}
+
+div p {
+  background-color: red;
+}
+
+div p {
+  background-color: yellow !important;
 }
