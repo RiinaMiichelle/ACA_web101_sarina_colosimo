@@ -1,0 +1,74 @@
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.main-container{
+  height: 100%;
+  width: 100%;
+}
+
+.left-side {
+  text-align: center;
+}
+
+.right-side {
+text-align: center;
+}
+
+.header {
+  background-color: white;
+  font-size: 40px;
+}
+
+.info{
+background-color: white;
+font-size: 30px;
+}
+
+.experience {
+  background-color: white;
+  
+  
+}
+
+.education {
+  background-color: white;
+}
+
+.profile{
+background-color: white;
+}
+
+.skills {
+background-color: white;
+}
+
+h1 {
+
+}
+
+h2{
+
+}
+
+h3{
+
+}
+
+h4 {
+
+}
+
+p{
+
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
