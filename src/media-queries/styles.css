@@ -12,12 +12,13 @@ body {
   border: 1px solid green;
 }
 
-.main-container .item{
-  height: 300px;
-  width: 300px;
-  background-color: purple;
-  margin: 10px auto;
-}
+.image-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+  }
 
 @media (min-width: 768px) {
   .main-container .item {
@@ -29,7 +30,6 @@ body {
       width: 100%;
       background: pink;
     }
-  }
- 
+  
+  
 }
-
