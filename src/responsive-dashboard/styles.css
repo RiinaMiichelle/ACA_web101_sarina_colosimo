@@ -1,3 +1,147 @@
 * {
+box-sizing: border-box;
+}
+
+@media (min-width: 600px) {
   
 }
+
+body {
+margin: 0;
+padding: 0;
+}
+
+.main-container {
+display: grid;
+grid-template-columns: 16% 28% 28% 28%;
+grid-template-rows: 8% 8% 32% 26% 26%;
+height: 100%;
+}
+
+.paymetrics {
+grid-column: 1/2;
+grid-row: 1/2;
+background: teal;
+color: white;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+.iconbar {
+grid-column: 2/5;
+grid-row: 1/2;
+background: teal;
+color: white;
+display: flex;
+align-items: center;
+padding-left: 12px;
+}
+
+.nav {
+grid-column: 1/2;
+grid-row: 2/6;
+background: grey;
+color: white;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+border: solid 1px black;
+
+
+}
+
+.nav div {
+  padding-left: 60px;
+  padding-top: 30px;
+}
+
+.dashboardreports {
+grid-column: 2/3;
+grid-row: 2/3;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding-left: 60px;
+}
+
+.dashnav {
+grid-column: 3/5;
+grid-row: 2/3;
+background: white;
+color: black;
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+background: white;
+padding-right: 40px;
+}
+
+.dashnav div {
+flex-direction: row;
+align-content: space-between;
+padding: 10px;
+}
+
+.boxone {
+grid-column: 2/4;
+grid-row: 3/4;
+border: 1px solid black;
+background: grey;
+}
+
+.boxtwo {
+grid-column: 4/5;
+grid-row: 3/4;
+border: 1px solid black;
+background: grey;
+}
+
+.boxthree {
+grid-column: 2/3;
+grid-row: 4/5;
+border: 1px solid black;
+background: grey;
+}
+
+.boxfour {
+grid-column: 3/4; 
+grid-row: 4/5;
+border: 1px solid black;
+background: grey;
+}
+
+.boxfive {
+grid-column: 4/5;
+grid-row: 4/5;
+border: 1px solid black;
+background: grey;
+}
+
+.boxsix {
+grid-column: 2/3;
+grid-row: 5/6;
+border: 1px solid black;
+background: grey;
+}
+
+.boxseven {
+grid-column: 3/4;
+grid-row: 5/6;
+border: 1px solid black;
+background: grey;
+}
+
+.boxeight {
+grid-column: 4/5;
+grid-row: 5/6;
+border: 1px solid black;
+background: grey;
+}
+
+
+
+
+
