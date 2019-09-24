@@ -1,35 +1,160 @@
-*{
+* {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
+  padding: 0;
 }
 
-.main-container{
-  height: 100%;
+.maincontainer {
   width: 100%;
-  border: 1px solid green;
+  border: 1px solid black;
 }
 
-.image-container {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
-    
-  }
+.backgroundimage {
+  background-image: url('./TechImage.jpeg');
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: contain, cover;
+  background-position: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+button {
+  height: 30px;
+  width: auto;
+  color: white;
+  border: 1px solid black;
+  background-color: grey;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+h2 {
+  margin-left: 20px;
+}
+
+.gridcontainer {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+  height: 250px;
+  background-color: grey;
+  color: white;
+  padding: 20px;
+}
+
+.usefullinks {
+  grid-column: 1/2;
+  display: flex;
+  flex-direction: column;
+  justify-self: start;
+}
+
+.socialmedia {
+  grid-column: 2/3;
+  display: flex;
+  flex-direction: column;
+  justify-self: start;
+}
+
+h4 {
+  list-style-type: none;
+  text-decoration: underline;
+  padding: 6px;
+  margin: 0;
+}
 
 @media (min-width: 768px) {
-  .main-container .item {
-    display: inline-block;
+.backgroundimage {
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: contain, cover;
+  background-position: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
   }
 
-  @media (min-width: 992px) {
-    .main-container .item {
-      width: 100%;
-      background: pink;
+button {
+  height: 60px;
+  margin-left: 60px;
+  margin-right: 40px;
+  margin-bottom: 60px;
+  }
+
+h1 {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+h2 {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+h4 {
+  padding: 12px;
+}
+
+.gridcontainer {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+  height: 500px;
+  background-color: grey;
+  color: white;
+  padding: 40px;
+}
+
+}
+
+@media (min-width: 992px) {
+  .backgroundimage {
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: contain, cover;
+    background-position: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
     }
   
+  button {
+    height: 60px;
+    margin-left: 80px;
+    margin-right: 60px;
+    margin-bottom: 80px;
+    }
+  
+  h1 {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  
+  h2 {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  
+  h4 {
+    padding: 18px;
+  }
+  
+  .gridcontainer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    height: 500px;
+    background-color: grey;
+    color: white;
+    padding: 60px;
+  }
   
 }
