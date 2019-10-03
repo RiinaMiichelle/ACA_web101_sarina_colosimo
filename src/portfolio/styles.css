@@ -37,7 +37,7 @@
   justify-content: flex-end;
   font-family: futura-pt-bold, sans-serif;
   background: white;
-  letter-spacing: 1px;`
+  letter-spacing: 1px;
 
 }
 
@@ -96,10 +96,11 @@ li {
 .form-container {
   display: flex;
   margin: auto;
-  height: 400px;
-  width: 600px;
+  height: 600px;
+  width: 400px;
   border: 2px solid black;
   margin-top: 60px;
+  margin-bottom: 60px;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -131,20 +132,83 @@ h1 {
   margin-bottom: 10px;
 }
 
+#location {
+  border: 2px solid black;
+  margin-bottom: 10px;
+}
+
+#email {
+  border: 2px solid black;
+  margin-bottom: 10px; 
+}
+
 #messagearea {
   border: 2px solid black;
-  margin-bottom
+  margin-bottom: 10px;
 }
 
 .message {
   margin-bottom: 10px;
 }
 
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+}
+
 button {
+
   height: 30px;
   width: 60px;
   color: black;
   border: 2px solid black;
-  margin-left: 80px;
-  margin-top: 20px;
+}
+
+.reset {
+  height: 30px;
+  width: 60px;
+  color: black;
+  border: 2px solid black;
+}
+
+@media (min-width: 600px) { 
+  .me {
+    height: 400px;
+    width: 60%;
+    margin: auto;
+    font-family: futura-pt-bold, sans-serif;
+    font-size: 30px;
+    background-color: white;
+    letter-spacing: 1px;
+  }
+
+  div.navcontainer {
+    margin-bottom: 40px;
+  }
+
+  .backgroundimage {
+    margin-bottom: 100px;
+  }
+
+  .iframecontainer {
+    margin-top: 50px;
+  }
+
+
+  @media (min-width: 768px) {
+  .me {
+    height: 200px;
+    width: 60%;
+    margin: auto;
+    font-family: futura-pt-bold, sans-serif;
+    font-size: 30px;
+    background-color: white;
+    letter-spacing: 1px;
+  }
+
+  }
 }
