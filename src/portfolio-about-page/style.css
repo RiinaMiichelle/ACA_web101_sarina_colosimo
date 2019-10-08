@@ -38,6 +38,7 @@
   font-family: futura-pt-bold, sans-serif;
   background: white;
   letter-spacing: 1px;
+  margin-bottom: 60px;
 }
 
 .navop2 {
@@ -59,4 +60,12 @@
   li {
     display: inline;
     text-decoration: none;
+  }
+
+  .about-container {
+    margin: auto;
+    margin-top: 80px;
+    height: 100%;
+    width: 90%;
+    font-size: 30px;
   }
