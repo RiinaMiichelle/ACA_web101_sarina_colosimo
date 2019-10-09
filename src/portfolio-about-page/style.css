@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+.maincontainer {
+  width: 100%;
+  height: 100%;
+  margin: 0% auto;
+}
+
+.namebar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  height: 80px;
+  width: 100%;
+  font-size: 30px;
+  letter-spacing: 10px;
+  font-family: futura-pt-bold, sans-serif;
+  font-weight: bold;
+  margin: auto;
+  background: white;
+  margin-top: 10px;
+}
+
+.navcontainer {
+  height: 40px;
+  width: 100%;
+  background-color: white;
+  font-size: 30px;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  font-family: futura-pt-bold, sans-serif;
+  background: white;
+  letter-spacing: 1px;
+}
+
+.navop2 {
+  margin-left: 10px;
+  }
+  
+  .navop3 {
+    margin-left: 10px;
+    margin-right: 80px;
+  }
+  
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+    text-decoration: none;
+  }

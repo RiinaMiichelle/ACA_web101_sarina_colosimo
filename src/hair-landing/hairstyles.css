@@ -1,0 +1,317 @@
+* {
+  box-sizing: border-box;
+}
+
+@media (max-width: 576px) {
+
+body {
+  height: 100%;
+  max-width: 100%;
+  }
+
+.barbershop {
+  background-image: url('./barbershop.png');
+  max-width: 300px;
+  height: 50px;
+  margin-left: 70px;
+  margin-top: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.mustache {
+  background-image: url('./mustache3.png');
+  max-width: 300px;
+  height: 200px;
+  margin: auto;
+  background-size: contain;
+  }
+
+.icon {
+  flex-direction: column;
+  height: 60px; 
+  width: 60px;
+  background-color: turquoise;
+  border-radius: 5px;
+  margin: auto;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.navigate {
+  visibility: hidden;
+}
+
+.iconbar {
+  display: flex;
+  width: 60%;
+  height: 5px;
+  background-color: white;
+  margin: 6px auto;
+}
+
+.headertext {
+  display: flex;
+  flex-direction: column;
+  background-image: url('./barbershop.jpg');
+  background-size: contain;
+}
+
+button {
+  justify-content: center;
+  background-color: turquoise;
+  color: white;
+  width: 120px;
+  height: 40px;
+  margin-bottom: 100px;
+  margin-left: 5px;
+  }
+
+
+li {
+  display: inline;
+  }
+
+ul{
+  visibility: hidden;
+  }
+
+h2 {
+  color: black;
+  background-color: white;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  margin-right: 80px;
+  }
+
+h3 {
+  color: white;
+  padding: 10px;
+  background-color: black;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  }
+
+img {
+  height: 350px;
+  width: 350px;
+  margin: auto;
+  }
+
+.pictures {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  }
+
+.figcapcontainer {
+  visibility: hidden;
+  }
+  
+.figcap1 {
+  visibility: hidden;
+}
+
+.figcap2 {
+  visibility: hidden;
+}
+
+.figcap3 {
+  visibility: hidden;
+}
+
+.hairblocks {
+  border: 2px solid black;
+  }
+
+figcaption {
+  padding: 20px;
+  margin: auto;
+  font-weight: bold;
+  }
+
+footer {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background:black;
+  margin-bottom: 50px;
+  }
+
+footer div  {
+  color: white;
+  }
+
+}
+
+@media (min-width: 992px) {
+
+.barbershop {
+  background-image: url('./barbershop.png');
+  max-width: 600px;
+  height: 200px;
+  margin: auto;
+  margin-top: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.mustache {
+  background-image: url('./mustache3.png');
+  max-width: 300px;
+  height: 200px;
+  margin: auto;
+  background-size: contain;
+  }
+
+.icon {
+  flex-direction: column;
+  height: 60px; 
+  width: 60px;
+  background-color: turquoise;
+  border-radius: 5px;
+  margin: auto;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.iconbar {
+  display: flex;
+  width: 60%;
+  height: 5px;
+  background-color: white;
+  margin: 6px auto;
+}
+
+.headertext {
+  display: flex;
+  flex-direction: column;
+  background-image: url('./barbershop.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 60%;
+  margin: auto;
+  margin-top: 60px;
+}
+
+button {
+  justify-content: center;
+  background-color: turquoise;
+  font-size: 20px;
+  color: white;
+  width: 140px;
+  height: 60px;
+  margin-bottom: 100px;
+  margin-left: 80px;
+  }
+
+
+h2 {
+  color: black;
+  background-color: white;
+  padding: 10px;
+  font-size: 40px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  margin-left: 80px;
+  margin-right: 400px;
+  }
+
+h3 {
+  color: white;
+  padding: 10px;
+  font-size: 30px;
+  background-color: black;
+  margin-bottom: 20px;
+  margin-left: 80px;
+  margin-right: 300px;
+  }
+
+img {
+  height: 350px;
+  width: 350px;
+  margin: auto;
+  }
+
+.pictures {
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+  }
+
+figcaption {
+visibility: hidden;
+}
+
+.figcapcontainer {
+display: flex;
+flex-direction: row;
+font-size: 25px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.figcap1 {
+visibility: visible;
+margin-left: 110px;
+}
+
+.figcap2 {
+visibility: visible;
+margin-left: 360px;
+}
+
+.figcap3 {
+margin-left: 360px;
+visibility: visible;
+}
+
+.hairblocks {
+  border: 2px solid black;
+  max-width: 300px;
+  margin: auto;
+  }
+
+footer {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background:black;
+  margin-bottom: 50px;
+  
+  }
+
+footer div  {
+  color: white;
+  font-size: 20px;
+  }
+
+  .icon {
+    visibility: hidden;
+  }
+
+  .navigate {
+  visibility: visible;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  }
+
+  .navops {
+    font-size: 30px;
+  }
+
+}
+
+
