@@ -47,7 +47,6 @@ body {
 .navigation {
   height: 140px;
   width: 100%;
-  border: 1px solid black;
 }
 
 .nav-list {
@@ -76,6 +75,31 @@ body {
 .nav-list .search-icon {
   justify-content: flex-end;
   align-items: center;
+}
+
+.box-wrappers {
+  width: 100%;
+  margin-top: 60px;
+  display: flex;
+}
+
+.boxes {
+  margin: auto;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 40px;
+  width: 70%;
+}
+
+.necklaces {
+  height: 200px;
+  width: 200px;
+}
+
+figcaption {
+  width: 200px;
 }
 
 

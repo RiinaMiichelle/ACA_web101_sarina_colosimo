@@ -46,9 +46,8 @@ body {
 }
 
 .navigation {
-  height: 140px;
+  height: 130px;
   width: 100%;
-  border: 1px solid black;
 }
 
 .nav-list {
@@ -80,6 +79,7 @@ body {
   background-size: cover;
   background-position: center center;
   height: 600px;
+  margin-top: 40px;
 }
 
 .look {
@@ -93,13 +93,15 @@ body {
 
 .portrait-wrapper {
   display: flex;
+  height: 600px;
 }
 
 .portrait-wrapper img {
+  height: 100%;
   margin: auto;
   flex-direction: row;
   justify-content: space-between;
-  height: 350px;
+  border: 1px solid black;
 }
 
 .gram {
