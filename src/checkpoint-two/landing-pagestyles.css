@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box; 
 }
@@ -57,6 +58,12 @@ body {
   justify-content: space-around;
 }
 
+.nav-list .options {
+  font-size: 20px;
+  letter-spacing: 2;
+}
+
+
 .nav-list .mana-culture {
   justify-content: flex-start;
   align-items: center;
@@ -65,12 +72,6 @@ body {
 .nav-list div {
   display: flex;
   align-items: flex-end;
-  
-}
-
-.nav-list .search-icon {
-  justify-content: flex-end;
-  align-items: center;
 }
 
 .banner-image {
@@ -110,12 +111,26 @@ body {
   font-size: 40px;
 }
 
+.footer {
+  height: 300px;
+  width: 100%;
+  border: 1px solid black;
+}
 
+.footer-left {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 40px;
+}
 
+.footer-left li {
+  padding:5px;
+}
 
-
-
-
-
-
+h5 {
+  font-size: 15px;
+  font-weight: bold;
+}
 

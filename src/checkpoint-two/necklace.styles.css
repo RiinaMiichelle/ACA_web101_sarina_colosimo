@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box; 
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0% auto;
+}
+
+.main-container {
+  font-family: 'Karla', sans-serif;
+}
+
+.top-header {
+  height: 48px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  letter-spacing: 1.7px;
+}
+
+.header-left {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: space-around;
+  margin-left: 2%;
+  font-size: 18px;
+
+}
+
+.header-right {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: space-around;
+  margin-right: 2%;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.navigation {
+  height: 140px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.nav-list {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.nav-list .options {
+  font-size: 20px;
+  letter-spacing: 2;
+}
+
+.nav-list .mana-culture {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.nav-list div {
+  display: flex;
+  align-items: flex-end;
+  
+}
+
+.nav-list .search-icon {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
+.footer {
+  height: 300px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.footer-left {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 40px;
+}
+
+.footer-left li {
+  padding:5px;
+}
+
+h5 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+
+
+
