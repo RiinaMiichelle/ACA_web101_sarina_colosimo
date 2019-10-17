@@ -5,10 +5,11 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/epoch.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light border-bottom border-white">
+
+  <nav id="main-nav" class="navbar navbar-expand-lg navbar-light border-bottom border-white">
     <a class="navbar-brand ml-5" href="#"><img src="/img/Logo_trans_banner_est062.png" class="img-fluid" style="width:300px"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -23,12 +24,17 @@
       </div>
     </div>
   </nav>
-  <div class="container">
+
+  <div class="container pb-5 mb-5">
+      <div class="stores d-flex justify-content-center">
+        <h1 class="location mt-5">STORE LOCATIONS</h1>
+      </div>
+
       <div class="border-bottom bottom-light w-75 mx-auto">
         <div class="row">
-          <div class="col"><img src="/img/EpochCoffee-ArieleBaragona-e1429040091764.jpg" class="img-fluid"></div>
+          <div class="col" id="top-pic"><img src="/img/EpochCoffee-ArieleBaragona-e1429040091764.jpg" class="img-fluid"></div>
         </div>
-        <div class="row">
+        <div class="row p-5">
           <div class="col-6">Epoch @ North Loop</div>
           <div class="col-6"> 221 W North Loop Blvd, Austin, Texas 78751  (512) 454-3762 Open Daily 24/7</div>
         </div>
@@ -38,7 +44,7 @@
       <div class="row">
         <div class="col"><img src="img/circa-e1426626471551.jpg" class="img-fluid"></div>
       </div>
-      <div class="row">
+      <div class="row p-5">
         <div class="col-6">Epoch @ the Village</div>
         <div class="col-6">2700 W Anderson Ln #409, Austin, TX 78757  (512) 351-9731 Open Daily 7am – 10pm</div>
       </div>
@@ -48,7 +54,7 @@
       <div class="row">
         <div class="col"><img src="/img/3900-Epoch-Coffee-Far-West-Blvd-78731LydaHam1AntandTravers.jpg" class="img-fluid"></div>
       </div>
-      <div class="row">
+      <div class="row p-5">
         <div class="col-6">Epoch @ Far West</div>
         <div class="col-6">3900 Far West Blvd, Austin, TX 78731 (512) 436-8594  Open M-F 6am – 7pm Sat-Sun 7am – 7pm</div>
       </div>
@@ -58,12 +64,56 @@
       <div class="row">
         <div class="col"><img src="/img/PT.jpg" class="img-fluid"></div>
       </div>
-      <div class="row">
+      <div class="row p-5">
         <div class="col-6">Epoch @ Park Tower</div>
         <div class="col-6">111 Sandra Muraida Way Suite 101, Austin, TX 78703 (512) 465-2335  Open M-F 6:30am – 7pm; Sat-Sun 7am-8pm</div>
       </div>
     </div>
-  </div> 
+</div>
+
+<div class="bottom-main d-flex">
+    <div class="footer-column col-md-3 col-sm-6 justify-content-center"> 
+      <aside><img width="200" height="200" src="./img/epoch-coffee-round-logo.png"></aside> 
+    </div> 
+    <div class="footer-column col-md-3 col-sm-6"> 
+      <aside>
+        <h1>Pages</h1>		
+        <ul>
+          <li>Contact Epoch</li>
+          <li>Current Artists</li>
+          <li>Gallery</li>
+          <li>News</li>
+          <li>Stores</li>
+        </ul>
+      </aside> 
+    </div> 
+    <div class="footer-column col-md-3 col-sm-6">
+      <aside>
+        <h1>Social Media</h1>
+      </aside> 
+    </div>
+    <div class="footer-column col-md-3 col-sm-6"> 
+      <aside>
+        <h1>Subscribe to Blog via Email</h1>
+    <form>
+      <div><p>Enter your email address to subscribe to this blog and receive notifications of new posts by email.</p></div>
+      <p>Join 74 other subscribers</p>
+      <p><label>Email Address</label><input type="email" name="email" value="" placeholder="Email Address"></p>
+      <p><button type="submit" name="jetpack_subscriptions_widget">Subscribe</button></p>
+    </form>
+      </aside> 
+    </div>
+  </div>
+    
+    <nav class="bottom-nav">
+      <div class="inner-nav">
+        <div class="nav-ops">HOME</div>
+        <div class="nav-ops">NEWS</div>
+        <div class="nav-ops">GALLERY</div>
+        <div class="nav-ops">CONTACT</div>
+        <div class="nav-ops">CURRENT ARTIST</div>
+    </div>
+  </nav>
   
 
 </body>
