@@ -61,6 +61,10 @@ body {
   letter-spacing: 2;
 }
 
+.mana-culture {
+  height: 150px;
+}
+
 .nav-list .mana-culture {
   justify-content: flex-start;
   align-items: center;
