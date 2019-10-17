@@ -176,6 +176,28 @@ button {
   border: 2px solid black;
 }
 
+
+.portfolio-container {
+  margin: auto;
+  width: 80%;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 40px;
+}
+
+.projects {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+}
+
+
+
 @media (min-width: 600px) { 
   .me {
     height: 400px;
